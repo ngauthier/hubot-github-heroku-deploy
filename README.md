@@ -11,7 +11,7 @@ Copy the `git-across.sh` file to the root of your hubot. Copy `github-to-heroku.
 
 ### 2. Auth
 
-Generate a key with `ssh-keygen`.
+Generate a key with `ssh-keygen`. **Dont** set a passphrase.
 
 Upload it to github under your project's Deploy Key field.
 
