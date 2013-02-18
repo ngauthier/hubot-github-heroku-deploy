@@ -28,7 +28,7 @@ Export the following config vars to heroku:
     GITHUB_KEY="`cat my-github-deploy-ssh-key`"
     GITHUB_PUBLIC_KEY="`cat my-github-deploy-ssh-key.pub`"
     GITHUB_URL="git@github.com:myproject/myrepo.git"
-    HEROKU_URL="git@heroku.com:myherokurepo.git"
+    HEROKU_GIT_URL="git@heroku.com:myherokurepo.git"
 
 ### 4. Deploy and Use
 
